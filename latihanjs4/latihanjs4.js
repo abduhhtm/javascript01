@@ -47,5 +47,7 @@ if (pendaftaran === true) {
     console.log("Tidak dapat mengikuti Kursus");
   }
 } else {
-  console.log("Tidak dapat mengikuti Kursus");
+  console.log("Tidak dapat mengikuti Kursus")
 }
+
+
