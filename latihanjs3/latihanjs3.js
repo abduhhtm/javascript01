@@ -1,5 +1,5 @@
 //Soal no 1
-const umur = 6;
+const umur = 1;
 if (umur > 5) {
   console.log("Anda harus membayar tiket penuh");
 } else if (umur >= 2 && umur <= 5) {
@@ -36,7 +36,7 @@ if (angka > 0) {
 
 
 // soal no 4
-const posisiPlayer = { x: -1, y: 2 };
+const posisiPlayer = { x: 1, y: 1 };
 
 if (posisiPlayer.x > 0 && posisiPlayer.y > 0) {
   console.log("Player di kanan atas");
@@ -76,3 +76,10 @@ if (usiaPengguna >= 18) {
   console.log("Registrasi gagal");
 }
 // batas
+const nilaiUjian = true
+if(true){
+  console.log("tidak berhasil")
+}
+else{
+  console.log("berhasil")
+}
