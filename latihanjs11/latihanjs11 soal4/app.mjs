@@ -1,4 +1,4 @@
-import getUser, { getUserRole, UserRole } from "./userUtils.mjs";
+import getUser, { getUserRole, UserRole } from "../latihanjs11 soal3/userUtils.mjs";
 
 console.log(getUser("abduh"));
 console.log(getUser("udin"));

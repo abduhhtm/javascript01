@@ -30,7 +30,7 @@ if (angka > 0) {
 } else if (angka < 0) {
   console.log("Angka tersebut negatif");
 } else {
-  console.log("Angka tersebut netral");
+  console.log("Angka tersebut netral"); 
 }
 //batas
 

@@ -1,5 +1,5 @@
-var nilai = 80
-var kehadiran = 20
+var nilai = 70
+var kehadiran = 9
 var totalpertemuan = 25
 var presentasekehadiran = kehadiran/totalpertemuan*100
 
@@ -29,15 +29,13 @@ if (nilai > 85) {
     }
 
 } else if (nilai <50) {
-    console.log("tidak lulus");
-    if (presentasekehadiran >75) {
-        console.log("lulus");
+        console.log("tidak lulus");
     }
-}
+
 
 // tugas gambar 2
 
-var pendaftaran = false;
+var pendaftaran = true;
 var pembayaran = false;
 
 if (pendaftaran === true) {

@@ -15,6 +15,6 @@ let tinggi = 7;
 let rumus = 1/2;
 let hasil = alas * tinggi * rumus
 console.log(hasil);
-
+const ab = a;
 
 hasil
