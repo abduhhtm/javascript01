@@ -1,5 +1,5 @@
 //Soal no 1
-const umur = 1;
+const umur = 5;
 if (umur > 5) {
   console.log("Anda harus membayar tiket penuh");
 } else if (umur >= 2 && umur <= 5) {
@@ -36,7 +36,7 @@ if (angka > 0) {
 
 
 // soal no 4
-const posisiPlayer = { x: 1, y: 1 };
+const posisiPlayer = { x: -1, y: -4 };
 
 if (posisiPlayer.x > 0 && posisiPlayer.y > 0) {
   console.log("Player di kanan atas");
@@ -53,7 +53,7 @@ if (posisiPlayer.x > 0 && posisiPlayer.y > 0) {
 
 
 //Soal no 5
-const totalPembelian = 100;
+const totalPembelian = 199;
 let diskon = 0;
 
 if (totalPembelian >= 200) {
