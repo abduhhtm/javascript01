@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document</title>
+  <script>
+    window.onload = function() {
+      alert("Selamat datang di halaman HTML ini!");
+      // Menampilkan confirm box yang menanyakan apakah pengguna ingin memasukkan nama mereka
+      var result = confirm("Apakah Anda ingin memasukkan nama Anda?");
+      if (result) {
+        // Menampilkan prompt box yang meminta pengguna untuk memasukkan nama mereka
+        var nama = prompt("Masukkan nama Anda:");
+        if (nama) {
+          // Menampilkan alert box yang menyapa pengguna dengan nama yang mereka masukkan
+          alert("Halo, " + nama + "! Selamat datang!");
+        } else {
+          alert("Anda tidak memasukkan nama.");
+        }
+      } else {
+        // Menampilkan alert box yang mengucapkan terima kasih kepada pengguna
+        alert("Terima kasih telah mengunjungi halaman ini!");
+      }
+    }
+  </script>
+</head>
+<body>
+    <script>
+        window.onload = function() {
+          alert("Selamat datang di halaman HTML ini!");
+          var result = confirm("Apakah Anda ingin memasukkan nama Anda?");
+          if (result) {
+            var nama = prompt("Masukkan nama Anda:");
+            if (nama) {
+              alert("Halo, " + nama + "! Selamat datang!");
+            } else {
+              alert("Anda tidak memasukkan nama.");
+            }
+          } else {
+            alert("Terima kasih telah mengunjungi halaman ini!");
+          }
+        }
+      </script>
+</body>
+</html>
