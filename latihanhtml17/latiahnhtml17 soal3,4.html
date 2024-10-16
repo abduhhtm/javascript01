@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul id="MyList">
+      <li id="MyItem">Item Lama</li>
+    </ul>
+
+    <script>
+        const list = document.getElementById('MyList');
+        const item = document.createElement('li');
+        item.innerText = 'Item Baru';
+        list.appendChild(item);
+
+        const sisipkan = document.createElement('li');
+        sisipkan.innerText = 'Item Sisipan';
+        list.insertBefore(sisipkan, item);
+    </script>
+  </body>
+</html>
