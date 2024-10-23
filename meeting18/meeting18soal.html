@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 18</title>
+</head>
+
+<body>
+    <!-- Soal 1 start -->
+
+    <button id="addEventListener">Tombol bukan sembarang Tombol</button>
+
+    <!-- Soal 1 end -->
+
+    <!-- Soal 2 start -->
+
+    <button id="MyButton">Tombol soal ke 2</button>
+
+    <!-- Soal 2 end -->
+
+    <!-- Soal 3 start   -->
+
+    <button id="button3">Tekan Aku</button>
+    <h3>Kamu sudah menekan tombol (tekan aku) di atas sebanyak <span id="count">0</span></h3>
+
+    <!-- soal 3 end -->
+
+    <!-- soal 4 start -->
+
+    
+
+
+    <script>
+
+        // Soal 1 start
+
+        const button = document.getElementById("addEventListener");
+        button.addEventListener('click', function () {
+            alert('Tombol Berhasil diklik');
+        });
+
+        //soal 1 clear
+
+        //soal 2 start
+
+        function showAlert() {
+            alert("Tombol soal ke 2 diklik");
+        }
+
+        window.onload = function () {
+            document.getElementById("MyButton").addEventListener("click", showAlert);
+        };
+
+        //soal 2 end
+
+
+        //soal 3 start
+
+
+        const button3 = document.getElementById("button3");
+        button3.addEventListener('click', function () {
+            increment();
+        });
+
+        function increment() {
+            let count = document.getElementById("count").innerText; count++;
+            document.getElementById("count").innerText = count;
+        }
+
+        //soal 3 end
+
+        
+    </script>
+
+<script>
+
+    function onPageLoad() {
+        let tanya1 = confirm("Apakah anda ingin melanjutkan ?")
+        if (tanya1 == true) {
+            alert("selamat datang di halaman !")
+            username()
+        } else {
+            alert("Anda memilih untuk tidak melanjutkan")
+        }
+    }
+
+    function username() {
+        const name = prompt("masukkan username")
+
+
+
+        if (name == "") {
+            const ulang = confirm("Apakah anda ingin mengulang ?")
+            if (ulang == true) {
+                username()
+            } else {
+                alert("Terima Kasih")
+            }
+        } else if (name = null) {
+            alert("Anda membatalkan ")
+        } else {
+
+            alert("Selamat Datang " + name)
+
+        }
+
+    }
+
+    const editcss = document.getElementById("MyButton")
+    editcss.style.backgroundColor = "black";
+    editcss.style.color = "White";
+    editcss.style.padding = "10px";
+    editcss.style.borderRadius = "5px";
+    editcss.style.margin = "10px";
+    editcss.style.fontSize = "20px";
+    editcss.style.fontWeight = "bold";
+    editcss.style.textDecoration = "underline";
+    editcss.style.textTransform = "uppercase";
+    editcss.style.letterSpacing = "5px";
+    editcss.style.lineHeight = "2";
+    editcss.style.wordSpacing = "10px";
+    editcss.style.textAlign = "center";
+    editcss.style.borderColor = "Blue";
+    editcss.style.borderStyle = "solid";
+    editcss.style.borderWidth = "5px";
+    editcss.style.marginleft = "500px";
+    editcss.style.cursor = "pointer";
+</script>
+
+</body>
+
+</html>

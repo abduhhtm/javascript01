@@ -20,7 +20,7 @@ console.log(obj['key']);
 obj.key ="cars";
 console.log(obj['key']);
 
-person.age = person.age+5
+person.age = person.age + 5
 console.log(person['age']);
 
 delete person.city;
