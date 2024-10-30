@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookshelf</title>
+    <link rel="stylesheet" href="Bookshelf.css">
+    <script defer src="Bookshelf.js"></script>
+</head>
+<body>
+    <header>
+        <h1>My Bookshelf</h1>
+        <p>Manage your reading list effortlessly.</p>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Add New Book</h2>
+            <form id="bookForm">
+                <input id="title" type="text" placeholder="Book Title" required />
+                <input id="author" type="text" placeholder="Author" required />
+                <input id="year" type="number" placeholder="Year Published" required />
+                <label>
+                    <input id="completed" type="checkbox" />
+                    Mark as Read
+                </label>
+                <button type="submit">Add to Shelf</button>
+            </form>
+        </section>
+
+        <section class="search-section">
+            <h2>Search Books</h2>
+            <input id="searchTitle" type="text" placeholder="Search by title or author" />
+            <button id="searchButton">Search</button>
+        </section>
+
+        <section class="book-list">
+            <h2>Currently Reading</h2>
+            <div id="currentBooks" class="books-container"></div>
+
+            <h2>Read Books</h2>
+            <div id="readBooks" class="books-container"></div>
+        </section>
+    </main>
+
+    <div id="toast" class="toast"></div>
+</body>
+</html>
